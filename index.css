@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.container {
+    position: relative;
+    background: #afafaf;
+    width: 30%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    top: 20%;
+    transform: translateY(-20%);
+    padding: 10px;
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 25px rgb(255, 255, 255);
+}
+
+.result {
+    padding: 20px;
+    margin: 10px 18px 0 18px;
+    border-radius: 25px;
+    background: #a1c7a3;
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    margin: 25px 10px;
+    padding-top: 10px;
+    border-top: 1px solid #000;
+}
+
+.button button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    /* transition: transform 1s ease; */
+    box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.922);
+}
+
+button:active {
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.837);
+    font-size: 1.4rem;
+
+}
+
+button.operator:focus {
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.837);
+    
+}
+
+.button button.equal {
+    width: 185%;
+}
+
+.number {
+    background: rgb(84, 82, 80);
+}
+
+.operator {
+    background: orange;
+}
+
+.clear {
+    background: orange;
+}
+
+.equal {
+    background: orange;
+}
+
+.delete {
+    background: orange;
+
+}
+
+.bam{
+    
+}
